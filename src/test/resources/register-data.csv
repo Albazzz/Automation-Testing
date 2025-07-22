@@ -1,0 +1,10 @@
+firstName,lastName,email,gender,mobile,dob,subjects,hobbies,picture,address,state,city,expectedResult
+123,123,123@123.com,Male,0123123123,19 Jul 2000,Maths;Chemistry,Sports,im.png,123,Uttar Pradesh,Lucknow,success
+123,123,123@123.com,Male,0123123123,19 Jul 2000,,Sports,im.png,123,Uttar Pradesh,Lucknow,success
+123,123,abc123,Male,0123123123,19 Jul 2000,InvalidSubject,Sports,im.png,123,Uttar Pradesh,Lucknow,fail
+123,123,123@123.com,Male,012345678,19 Jul 2000,,Sports,im.png,123,Uttar Pradesh,Lucknow,fail
+123,123,123@123.com,,0123123123,19 Jul 2000,,Sports,im.png,123,Uttar Pradesh,Lucknow,fail
+123,123,123,Male,abc1234567,19 Jul 2000,,Sports,im.png,123,Uttar Pradesh,Lucknow,fail
+123,123,123@123.com,Male,0123123123,19 Jul 2000,,Sports;Reading;Music,im.png,123,Uttar Pradesh,Lucknow,success
+123,123,123@123.com,Male,0123123123,19 Jul 2000,,Sports,im.png,,Uttar Pradesh,Lucknow,success
+123,123,123@123.com,Male,0123123123,19 Jul 2000,,Sports,im.png,123,Uttar Pradesh,Lucknow,success
